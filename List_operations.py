@@ -1,4 +1,4 @@
-# List Operations - append, insert, remove, sort, pop, reverse
+# List Operations - append, insert, remove, sort, pop, reverse, print
 
 """
 Consider a list (list = []). You can perform the following commands:
@@ -43,17 +43,22 @@ Sample Output :
 if __name__ == '__main__':
     sample_list = []
     str = ''
-    for i in range(int(input('Enter the number of list operations : '))):
-        #print("Hello {}".format(i))
-        str = str + input('Enter the list operation details : ') + '\n'
+    for i in range(int(input())):
+        str = str + input() + '\n'
 
     # Split the string in to nested lists and then perform the operations.
     for list_op in str.split('\n'):
-        if ('append' in list_op) :
+        if ('append' in list_op):
             sample_list.append(int(list_op.split()[1]))
-        elif ('insert' in list_op) :
+        elif ('insert' in list_op):
             sample_list.insert(int(list_op.split()[1]), int(list_op.split()[2]))
-        elif ('print' in list_op) :
+        elif ('print' in list_op):
             print(sample_list)
-
-
+        elif ('remove' in list_op):
+            sample_list.remove(int(list_op.split()[1]))
+        elif ('pop' in list_op):
+            sample_list.pop()
+        elif ('sort' in list_op):
+            sample_list.sort()
+        elif ('reverse' in list_op):
+            sample_list.reverse()
