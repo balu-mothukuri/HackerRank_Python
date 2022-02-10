@@ -9,4 +9,9 @@ Solutions to Python programming problems in Hacker Rank website
     - atleast one lowercase letter - islower()
     - atleast one uppercase letter - isupper()
 
+13. TextAlignment_logo.py -- Construct a logo in a desired format using Text Alignment functions.
+    They include the following
+    - rjust(width, '-'')
+    - ljust(width, '-'')
+    - center(width, '-'')
      
