@@ -25,7 +25,7 @@ def draw_mat_pattern(size, string, center_string):
     return result_string
 
 if __name__ == '__main__':
-    size = int(raw_input('Enter the pattern size : '))
+    size = int(raw_input('Enter the pattern size (odd number) : '))
     string = raw_input('Enter the string in the pattern : ')
     center_string = raw_input('Enter the center text on the mat : ')
     result_string = draw_mat_pattern(size, string, center_string)
