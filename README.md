@@ -24,4 +24,8 @@ Solutions to Python programming problems in Hacker Rank website
     - There is a design string that should be repeated in a certain way.
     - Also, the center line includes a WELCOME text.
     - used text alignment methods to align the string to achieve the desired pattern.
-     
+
+16. String_Formatting.py - For a given integer, print the following formats - decimal, octal, hexadecimal, binary.
+    - Use oct(n), hex(n), bin(n) for changing the formats.
+    - Adjust the spacing so that every format is right aligned and has a width equal to size of the binary number.
+      - rjust(width,' ')
