@@ -25,7 +25,11 @@ Solutions to Python programming problems in Hacker Rank website
     - Also, the center line includes a WELCOME text.
     - used text alignment methods to align the string to achieve the desired pattern.
 
-16. String_Formatting.py - For a given integer, print the following formats - decimal, octal, hexadecimal, binary.
+16. String_Formatting.py -- For a given integer, print the following formats - decimal, octal, hexadecimal, binary.
     - Use oct(n), hex(n), bin(n) for changing the formats.
     - Adjust the spacing so that every format is right aligned and has a width equal to size of the binary number.
       - rjust(width,' ')
+
+17. Capitalize.py -- Capitalize the first letter of each word in the given string
+    - For example 'balu mothukuri' needs to be converted to "Balu Mothukuri". "123ab" should remain as "123ab"
+    - Use capitalize() function.
