@@ -32,4 +32,11 @@ Solutions to Python programming problems in Hacker Rank website
 
 17. Capitalize.py -- Capitalize the first letter of each word in the given string
     - For example 'balu mothukuri' needs to be converted to "Balu Mothukuri". "123ab" should remain as "123ab"
-    - Use capitalize() function.
+    - capitalize() - Capitalizes the first char in each word if the word starts with an alphabet, else it does not.
+
+18 MinionGame.py - make words starting with each consonant and each vowel in a String and count their occurrences total.
+    - The same string is given to 2 players
+    - 1st player has to make all the possible words starting with consonants and count the number of occurrences.
+    - 2nd player has to make all the possible words starting with vowels and count the number of occurrences.
+    - Declare the winner depending on the count.
+    - Note - Count for the no of words starting with any letter = Length of String - index of the letter.
