@@ -34,7 +34,7 @@ Solutions to Python programming problems in Hacker Rank website
     - For example 'balu mothukuri' needs to be converted to "Balu Mothukuri". "123ab" should remain as "123ab"
     - capitalize() - Capitalizes the first char in each word if the word starts with an alphabet, else it does not.
 
-18 MinionGame.py - make words starting with each consonant and each vowel in a String and count their occurrences total.
+18. MinionGame.py - make words starting with each consonant and each vowel in a String and count their occurrences total.
     - The same string is given to 2 players
     - 1st player has to make all the possible words starting with consonants and count the number of occurrences.
     - 2nd player has to make all the possible words starting with vowels and count the number of occurrences.
