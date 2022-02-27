@@ -40,3 +40,9 @@ Solutions to Python programming problems in Hacker Rank website
     - 2nd player has to make all the possible words starting with vowels and count the number of occurrences.
     - Declare the winner depending on the count.
     - Note - Count for the no of words starting with any letter = Length of String - index of the letter.
+
+19. Merge_the_tools.py - Split the string s in to n/k substrings 
+    - where n is the length of the string and k is the length of each substring
+    - Print each substring in a new line.
+    - https://www.hackerrank.com/challenges/merge-the-tools/problem
+
