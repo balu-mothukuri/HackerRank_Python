@@ -46,3 +46,6 @@ Solutions to Python programming problems in Hacker Rank website
     - Print each substring in a new line.
     - https://www.hackerrank.com/challenges/merge-the-tools/problem
 
+20. symmetric_difference.py - Identifies a set with  all the elements in the set and the iterable but not both.
+    - If there are 2 sets and we have to find the elements that are present in either set but not both.
+    - Use symmetric_difference() function.
